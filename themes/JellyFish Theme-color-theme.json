@@ -1,17 +1,15 @@
 {
-	"name": "JellyFish Theme",
+	"name": "JellyFish-x-Retro Theme",
 	"type": "dark",
-	"author": "Pawel Borkar",     //  (https://github.com/PawelBorkar)  		
+	"author": "Bhanu Sunka",     //  (https://github.com/Bhanu1776)  		
 	"colors": {
 		
 		/*************************  I ❤ OpenSource  *************************/
 
 		/*************************
-		@Author: Pawel Borkar 
-		@Repository:  (https://github.com/pawelborkar/vscode-jellyfish)
-		@License: Apache-2.0 License
-		@Since: May 30, 2021 - present
-        *************************/
+		@Author: Bhanu Sunka
+		@Repository:  (https://github.com/Bhanu1776/vscode-Jellyfish-x-Retro)
+    ******************************/
 
 		/*************************  EDITOR  *************************/
 		"editor.background": "#00002c",
@@ -19,12 +17,11 @@
 		"editorCursor.foreground": "#00f7ff",
 		"editor.selectionHighlightBackground": "#8d8d8d62",
 		"editor.wordHighlightBackground": "#68686809",
-        "editor.wordHighlightStrongBackground": "#DA0093",
+		"editor.wordHighlightStrongBackground": "#DA0093",
 		"editor.selectionBackground": "#ff00885d",
 		"editor.findMatchHighlightBackground":"#5252529d",
 		"editorError.foreground":"#ff0000",
 		"editorWarning.foreground":"#ffa600de",
-		"editorInfo.border":"#ff4800",
 		"editorLineNumber.foreground":"#8686867c",
 		"editorLineNumber.activeForeground":"#ffffffb2",
 		"editorGroupHeader.tabsBackground":"#00002c",
@@ -46,7 +43,20 @@
 
 		"titleBar.activeBackground": "#0f0021",
 		"titleBar.activeForeground": "#999999a8",
-		"titleBar.inactiveForeground":"#ffd900",
+		"titleBar.inactiveForeground":"#ffd900",  
+		"terminal.ansiBlue": "#03edf9",
+		"terminal.ansiBrightBlue": "#4003f9",
+		"terminal.ansiBrightCyan": "#03edf9",
+		"terminal.ansiBrightGreen": "#72f1b8",
+		"terminal.ansiBrightMagenta": "#ff0080",
+		"terminal.ansiBrightRed": "#fe4450",
+		"terminal.ansiBrightYellow": "#fede5d",
+		"terminal.ansiCyan": "#03edf9",
+		"terminal.ansiGreen": "#4dffaf",
+		"terminal.ansiMagenta": "#ff0080",
+		"terminal.ansiRed": "#fe4450",
+		"terminal.ansiYellow": "#fff951",
+		"terminalCursor.background": "#ffffff",
 
 		/*************************  PANEL  *************************/
 		"panel.background": "#0f0021",
@@ -134,7 +144,7 @@
 		
 		/*************************  TAB  *************************/
 
-		"tab.activeBorderTop": "#e5ff00",
+		// "tab.activeBorderTop": "#e5ff00",
 		"tab.unfocusedActiveBorderTop":"#00aeff",
 		"tab.border": "#00000059",
 		"tab.activeBackground": "#160021",
@@ -159,7 +169,7 @@
 		"statusBar.debuggingBackground":"#FA1F6C",
 		"statusBar.debuggingForeground":"#ffffff",
 		"statusBar.background": "#0a002b",
-		"statusBar.foreground": "#a1a1a183",
+		"statusBar.foreground": "#cbcbcb83",
 		"statusBarItem.activeBackground":"#50002b",
 		
 		
@@ -188,8 +198,13 @@
 		/*************************  GIT  *************************/
 
 		"gitDecoration.stageModifiedResourceForeground":"#fbff02",
-		"gitDecoration.untrackedResourceForeground":"#00ffffd5",
-		"gitDecoration.addedResourceForeground":"#00ff22",
+		// "gitDecoration.untrackedResourceForeground":"#00ffffd5",
+		// "gitDecoration.addedResourceForeground":"#00ff22",
+		"gitDecoration.modifiedResourceForeground": "#7FFFD4",
+		"gitDecoration.deletedResourceForeground": "#fe4450",
+		"gitDecoration.addedResourceForeground": "#7FFFD4",
+		"gitDecoration.untrackedResourceForeground": "#03edf9",
+		"gitDecoration.ignoredResourceForeground": "#ffffff59",
 
 		
 	},
@@ -202,7 +217,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#838383"
+				"foreground": "#9963ff99"
 			}
 		},
 		{
@@ -212,7 +227,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#FF7EDB"
 			}
 		},
 		{
@@ -361,7 +376,8 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#82fbff"
+				"foreground": "#82fbff",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -424,7 +440,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#72f1b8"
 			}
 		},
 		{
@@ -700,7 +716,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#ff7edb"
 			}
 		},
 		{
