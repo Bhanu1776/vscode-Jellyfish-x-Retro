@@ -1,79 +1,106 @@
 <div align="center">
 
-# JellyFish
+# JellyFish-x-Retro 🚀
 
-<img src="https://raw.githubusercontent.com/pawelborkar/vscode-JellyFish/star/assets/jellyfish.png" height="190px" width="190px" style="border-radius:50%;">
-
-<br>
-<br>
-
-> _Theme your code editor will love_
+<img src="./assets/jellyfish.png" height="190px" width="190px" style="border-radius:50%;">
 
 <br>
 
-### Wanna give a token of Thanks and Support Me?
-
-<a href="https://www.buymeacoffee.com/borkar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-</div>
+> _Get ready to fall in Love with the Retro theme ♥️_
 
 <br>
 
-![JellyFish](https://img.shields.io/badge/Theme-JellyFish-%23ff0055)
-![GitHub](https://img.shields.io/github/license/pawelborkar/vscode-JellyFish?color=%23ff0055&label=License&logo=License&style=flat)
-![Message](https://img.shields.io/badge/I%20%E2%9D%A4%20-OpenSource-%23ff0055)
-![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/pawelborkar.jellyfish?color=%23ff0055&label=Latest&logo=Latest&logoColor=%23ff0055)
+*This is a fork of <a href="https://github.com/pawelborkar/vscode-jellyfish">JellyFish</a> Theme.*
 
----
+![Editor](./assets/Preview1.PNG)
+ <i style="font-size: .8em">Appealing colors</i>
 
 <br>
 
-<br>
-
-![Preview](https://raw.githubusercontent.com/pawelborkar/vscode-JellyFish/star/assets/Preview1.PNG)
-
-<br>
-
-![Preview](https://raw.githubusercontent.com/pawelborkar/vscode-JellyFish/star/assets/Preview2.PNG)
+![Multi-Editors](./assets/Preview2.PNG)
+ <i style="font-size: .8em">Cool gradients all over the theme</i>
 
 <br>
 
-![Preview](https://raw.githubusercontent.com/pawelborkar/vscode-JellyFish/star/assets/Preview3.PNG)
+![Terminal](./assets/Preview3.PNG)
+ <i style="font-size: .8em">Awesome color combination of terminal</i>
 
 <br>
 
-![Preview](https://raw.githubusercontent.com/pawelborkar/vscode-JellyFish/star/assets/Preview4.PNG)
+![Theme](./assets/1.gif)
+ <i style="font-size: .8em">Rocking Retro Animations</i>
 
 <br>
 
-![Preview](https://raw.githubusercontent.com/pawelborkar/vscode-JellyFish/star/assets/Preview5.PNG)
+![Animations](./assets/2.gif)
+<i  style="font-size: .8em">Epic neon glowing tooltips, scale on hover and folding effects</i>
 
 <br>
 
 ---
 
-<br>
 </div>
 
-# Installation
+## Features of this Fork 💫
 
-1. Open _Extensions_ from the Activity Bar in VS Code. `View → Extensions`
-2. Search for `JellyFish`, choose "JellyFish Theme" by _Pawel Borkar_
-3. Click _Install_
-4. Navigate to File > Preferences > Color Theme >`JellyFish`
+First of all Thanks a lot to [Pawel Borkar](https://github.com/pawelborkar) for such amazing work !!  
+This fork mainly includes Aesthetic retro look with crazy animations.
 
-<br>
+## Installation 🗃️
 
-## Author
+Unfortunately, the current installation is a bit complicated.  
+The following steps must be performed to install the theme:
 
-[Pawel Borkar](https://github.com/pawelborkar)
+1. Install this theme  
+2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) vscode extension
+3. Link the CSS file from this extension in your .vscode/settings.json:
+   - To find settings.json: Hit CTRL + SHIFT + P and type "Open Settings (JSON)" and click the matching entry.
 
-<br>
+```
+On Mac it might look something like the snippet below:
 
-# License
+{
+  "vscode_custom_css.imports": [
+    "file:///Users/{your username}/.vscode/extensions/Bhanu1776.vscode-Jellyfish-x-Retro/themes/JellyFish-x-Retro.css"
+    ]
+}
 
-[Apache-2.0 License](LICENSE)
+Windows might resemble:
 
-<br>
+{
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/{your username}/.vscode/extensions/Bhanu1776.vscode-Jellyfish-x-Retro/themes/JellyFish-x-Retro.css"
+    ]
+}
+```
 
-_Copyright (c) 2022 Pawel Borkar_
+4. From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates!
+
+<br/>
+
+## Font 🔨
+
+The font being used in the screenshot above is [Operator Mono with Ligatures](https://github.com/kiliman/operator-mono-lig).
+
+## Contributing ✨
+
+This is an open source project, and contributions of any kind are welcome and appreciated. Feel free to open bug tickets and make feature requests.
+
+## Contact ☎️
+
+<p align=left>
+<a href="https://in.linkedin.com/in/bhanu-sunka-94a24a21a"><img src="https://img.shields.io/badge/LinkedIn-000080?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://www.instagram.com/bhanu_1776/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://mobile.twitter.com/sunkabhanu"><img src="https://img.shields.io/badge/Twitter-0099ff?style=for-the-badge&logo=twitter&logoColor=white"></a>
+<a href="mailto:sunkabhanu281202@gmail.com"><img src="https://img.shields.io/badge/mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+
+## Support Me If You Appreciate My Work 🫂
+
+<a href="https://www.buymeacoffee.com/Bhanu1776"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+
+<hr>
+
+© 2022 Bhanu Sunka
+This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/vscode-Jellyfish-x-Retro/blob/star/LICENSE).
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
