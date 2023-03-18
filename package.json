@@ -3,9 +3,9 @@
     "displayName": "JellyFish-x-Retro Theme",
     "description": "This Retro theme injects modern aesthetics and wild 80's animations into your VS code.",
     "publisher": "Bhanu1776",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
-    "keywords": ["vscode retro theme"],
+    "keywords": ["vscode retro theme", "jellyfish", "Retro", "Dark-theme"],
     "author": {
         "name": "Bhanu Sunka"
     },
