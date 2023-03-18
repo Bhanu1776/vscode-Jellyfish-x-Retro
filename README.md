@@ -51,7 +51,7 @@ This fork mainly includes Aesthetic retro look with crazy animations.
 Unfortunately, the current installation is a bit complicated.  
 The following steps must be performed to install the theme:
 
-1. Install this theme  
+1. Install this theme from vscode or from [here](https://marketplace.visualstudio.com/items?itemName=Bhanu1776.jellyfish-retro).
 2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) vscode extension
 3. Link the CSS file from this extension in your .vscode/settings.json:
    - To find settings.json: Hit CTRL + SHIFT + P and type "Open Settings (JSON)" and click the matching entry.
@@ -61,7 +61,7 @@ On Mac it might look something like the snippet below:
 
 {
   "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/Bhanu1776.vscode-Jellyfish-x-Retro/themes/JellyFish-x-Retro.css"
+    "file:///Users/{your username}/.vscode/extensions/bhanu1776.jellyfish-retro-0.0.2/themes/JellyFish-x-Retro.css"
     ]
 }
 
@@ -69,7 +69,7 @@ Windows might resemble:
 
 {
   "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/Bhanu1776.vscode-Jellyfish-x-Retro/themes/JellyFish-x-Retro.css"
+    "file:///C:/Users/{your username}/.vscode/extensions/bhanu1776.jellyfish-retro-0.0.2/themes/JellyFish-x-Retro.css"
     ]
 }
 ```
