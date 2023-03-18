@@ -103,4 +103,4 @@ This is an open source project, and contributions of any kind are welcome and ap
 © 2022 Bhanu Sunka
 This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/vscode-Jellyfish-x-Retro/blob/star/LICENSE).
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+![Love](https://img.shields.io/badge/I%20%E2%9D%A4%20-OpenSource-%23ff0055)
