@@ -6,11 +6,11 @@
 
 <br>
 
-> _Get ready to fall in Love with the Retro theme ♥️_
+> _Get ready to fall in Love with this Retro theme ♥️_
 
 <br>
 
-*This is a fork of <a href="https://github.com/pawelborkar/vscode-jellyfish">JellyFish</a> Theme.*
+*This is a fork of <a href="https://github.com/pawelborkar/vscode-jellyfish">JellyFish</a> Theme. **Kindly read Installation steps!!***
 
 ![Editor](./assets/Preview1.PNG)
  <i style="font-size: .8em">Appealing colors</i>
@@ -52,29 +52,32 @@ Unfortunately, the current installation is a bit complicated.
 The following steps must be performed to install the theme:
 
 1. Install this theme from vscode or from [here](https://marketplace.visualstudio.com/items?itemName=Bhanu1776.jellyfish-retro).
-2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) vscode extension
+2. Install [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css) vscode extension.
 3. Link the CSS file from this extension in your .vscode/settings.json:
-   - To find settings.json: Hit CTRL + SHIFT + P and type "Open Settings (JSON)" and click the matching entry.
+   - To find settings.json: Hit CTRL + SHIFT + P and type "Open User Settings (JSON)" and click the matching entry.
 
 ```
-On Mac it might look something like the snippet below:
+On Mac & Linux it might look something like the snippet below:
 
-{
-  "vscode_custom_css.imports": [
-    "file:///Users/{your username}/.vscode/extensions/bhanu1776.jellyfish-retro-0.0.2/themes/JellyFish-x-Retro.css"
-    ]
-}
+  ,"vscode_custom_css.imports": [
+    "file:///Users/{your system username}/.vscode/extensions/bhanu1776.jellyfish-retro-0.1.0/themes/JellyFish-x-Retro.css"
+    ],
 
 Windows might resemble:
 
-{
-  "vscode_custom_css.imports": [
-    "file:///C:/Users/{your username}/.vscode/extensions/bhanu1776.jellyfish-retro-0.0.2/themes/JellyFish-x-Retro.css"
-    ]
-}
+  ,"vscode_custom_css.imports": [
+    "file:///C:/Users/{Your Windows Username}/.vscode/extensions/bhanu1776.jellyfish-retro-0.1.0/themes/JellyFish-x-Retro.css"
+    ],
+
 ```
 
-4. From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates!
+4. Don't forget to add your `username` in the above code !!
+
+    - If you are confused with the above code you can simply redirect to that path via `File explorer` and paste here (optional)
+
+5. Paste the above code in settings.json at the end of the line before `'}'`
+
+6. From the command panel, select `Reload Custom CSS and JS`. You'll need to run this command every time vscode updates!
 
 <br/>
 
