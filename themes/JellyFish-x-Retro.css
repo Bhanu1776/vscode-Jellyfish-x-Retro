@@ -19,10 +19,17 @@
 .mtk3{
     display: inline-block;
     transition: .4s transform;
-    /* transform: rotateX(0); */
 }
 .mtk3:hover{
-    text-shadow: 2 2 15px;
+    text-shadow: 2 2 15px !important;
+    transform: scale(1.15) !important;
+}
+.mtk8, .mtk9, .mtk6, .mtk7, .mtk10 {
+    display: inline-block !important;
+    transition: .4s transform !important;
+}
+.mtk8:hover, .mtk9:hover, .mtk6:hover, .mtk7:hover, .mtk10:hover {
+    text-shadow: 2 2 15px !important;
     transform: scale(1.1) !important;
 }
 
